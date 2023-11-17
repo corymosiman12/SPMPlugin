@@ -16,6 +16,7 @@ testArgs=( xcrun --toolchain "$TOOLCHAIN" \
         -toolchain "$TOOLCHAIN" \
         -project "$PROJECT" \
         -scheme "$SCHEME" \
+        -sdk "$SDK" \
         -configuration Debug \
         -destination "$DESTINATION"  \
         -derivedDataPath "$BUILD_DIR" \
